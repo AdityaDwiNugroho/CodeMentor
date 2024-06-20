@@ -1,9 +1,10 @@
-# Node.js
-node_modules/
+# Ignore node_modules (if applicable)
+/node_modules/
 
-# Compiled files
-*.css
-*.map
+# Ignore compiled CSS files
+/css/*.css
+
+
 
 # Log files
 *.log
@@ -11,7 +12,3 @@ node_modules/
 # IDE-specific files (optional)
 .vscode/
 .idea/
-
-# Environment-specific files (optional)
-.env
-.env.local
