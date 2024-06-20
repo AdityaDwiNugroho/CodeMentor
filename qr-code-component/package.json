@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "live-server",
-    "build": "sass scss/styles.scss css/style.css",
+    "build": "npx node-sass scss/styles.scss css/style.css",
     "watch": "sass --watch scss/styles.scss:style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
