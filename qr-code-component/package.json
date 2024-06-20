@@ -1,0 +1,19 @@
+{
+  "name": "qr-code-component",
+  "version": "1.0.0",
+  "description": "Frontend Mentor QR Code Component challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "sass scss/styles.scss css/style.css",
+    "watch": "sass --watch scss/styles.scss:style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aditya.",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "sass": "^1.77.6"
+  }
+}

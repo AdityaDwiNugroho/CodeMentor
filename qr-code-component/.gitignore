@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+
+# Compiled files
+*.css
+*.map
+
+# Log files
+*.log
+
+# IDE-specific files (optional)
+.vscode/
+.idea/
+
+# Environment-specific files (optional)
+.env
+.env.local
