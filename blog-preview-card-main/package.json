@@ -1,0 +1,19 @@
+{
+  "name": "blog-preview-card-main",
+  "version": "1.0.0",
+  "description": "Frontend Mentor Blog Preview Card Component challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "sass main.scss css/style.css",
+    "watch": "sass --watch main.scss:css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aditya.",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.77.6"
+  }
+}

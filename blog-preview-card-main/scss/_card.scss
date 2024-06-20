@@ -1,0 +1,118 @@
+@import "./general";
+
+$breakpoint-tiny: 380px;
+$breakpoint-small: 480px;
+$breakpoint-medium: 768px;
+$breakpoint-large: 1024px;
+
+@mixin respond-to($breakpoint) {
+    @if $breakpoint == tiny {
+        @media (max-width: $breakpoint-tiny) { @content; }
+    } @else if $breakpoint == small {
+        @media (max-width: $breakpoint-small) { @content; }
+    } @else if $breakpoint == medium {
+        @media (max-width: $breakpoint-medium) { @content; }
+    } @else if $breakpoint == large {
+        @media (max-width: $breakpoint-large) { @content; }
+    }
+}
+
+
+.card {
+    display: block;
+    align-items: center;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid #000;
+    background-color: #fff;
+    width: 354px;
+    max-height: 492px;
+    margin: 5% auto;
+    padding: 24px 24px;
+    border-radius: 10px;
+    font-size: 16px;
+    flex-wrap: wrap;
+    box-shadow: 8px 8px;
+
+
+    @include respond-to(tiny) {
+        position: relative;
+        flex-wrap: wrap;
+        width: 254px;
+        align-items: center;
+        
+      }
+
+    @include respond-to(small) {
+        flex-wrap: wrap;
+        position: relative;
+        width: 284px;
+        top: 100px;
+      }
+    
+      @include respond-to(medium) {
+        position: relative;
+        top: 15%;
+      }
+
+      @include respond-to(large) {
+        margin: 15% auto;
+      }
+
+
+    .content {
+        h3 {
+            background-color: $Yellow;
+            padding: 5px;
+            max-width: 75px;
+            border-radius: 4px;
+        } p {
+            font-weight: 500;
+        }
+    
+        h2 {
+            font-weight: 800;
+            &:hover {
+                color: $Yellow;
+            }
+        }
+    }
+    
+    
+    .description {
+        color: $Grey;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+}
+ 
+
+.author{
+    display: inline-flex;
+    text-align: left;
+    clear: left;
+    justify-content: left;
+
+
+    img {
+        margin: 6px;
+        width: 32px;
+        height: 32px;
+    }
+
+    p {
+        margin: 12px;
+        font-weight: 800;
+    }
+}
+
+.attribution {
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+}
