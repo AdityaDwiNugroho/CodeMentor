@@ -1,0 +1,14 @@
+# Ignore node_modules (if applicable)
+/node_modules/
+
+# Ignore compiled CSS files
+/css/*.css
+
+
+
+# Log files
+*.log
+
+# IDE-specific files (optional)
+.vscode/
+.idea/
