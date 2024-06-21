@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+$Nutmeg: hsl(14, 45%, 36%);
+$Dark-Raspberry: hsl(332, 51%, 32%);
+$White: hsl(0, 0%, 100%);
+$Rose-White: hsl(330, 100%, 98%);
+$Eggshell: hsl(30, 54%, 90%);
+$Light-Grey: hsl(30, 18%, 87%);
+$Wenge-Brown: hsl(30, 10%, 34%);
+$Dark-Charcoal: hsl(24, 5%, 18%);
+$bg-Rose:hsl(322.5, 100%, 98.43%);
+
+
+html::-webkit-scrollbar {
+    width: 0.8rem;
+  }
+
+  
+body {
+    font-family: 'Young-Serif', 'Outfit', sans-serif;
+    background-color: $Eggshell;
+    padding: 0;
+    margin: 0;
+    height: 1555px;
+}

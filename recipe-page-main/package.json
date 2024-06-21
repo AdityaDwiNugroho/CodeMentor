@@ -1,0 +1,19 @@
+{
+  "name": "recipe-page-main",
+  "version": "1.0.0",
+  "description": "Frontend Mentor Recipe page challange",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "npx node-sass scss/styles.scss css/style.css",
+    "watch": "sass --watch main.scss:css/recipe-style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Aditya.",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.0",
+    "sass": "^1.77.6"
+  }
+}

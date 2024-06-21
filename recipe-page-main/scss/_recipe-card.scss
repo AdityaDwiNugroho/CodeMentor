@@ -1,0 +1,139 @@
+
+
+
+.recipe-card {
+    background-color: $White;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 696px;
+    height: auto;
+    padding: 40px;
+    margin-top: 123px;
+    border-radius: 10px;
+
+    h1 {
+        color: $Dark-Charcoal;
+        font-weight: 600;
+    }
+    img {
+        width: 696px;
+        border-radius: 10px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 600;
+        color: $Wenge-Brown;
+    }
+
+    .recipe-prep-time {
+        background-color: $bg-Rose;
+        padding: 25px;
+        border-radius: 10px;
+        line-height: 25px;
+
+        h2 {
+            color: $Dark-Raspberry;
+            font-weight: 600;
+        }
+
+        ul {
+            color: $Dark-Raspberry;
+        }
+
+        span {
+            color: $Dark-Charcoal;
+            font-weight: 400;
+        }
+
+    }
+
+
+    .ingredients {
+
+        h2 {
+            
+        color: $Nutmeg;
+        }
+        ul {
+            
+        color: $Nutmeg;
+        }
+
+        border-bottom: 1px solid $Light-Grey;
+        color: $Wenge-Brown;
+
+        span {
+            color: $Wenge-Brown;
+            font-weight: 400;
+        }
+    }
+
+    .instructions {
+
+        border-bottom: 1px solid $Light-Grey;
+        color: $Wenge-Brown;
+
+        h2 {
+            color: $Nutmeg;
+        }
+
+        
+        span {
+            font-weight: 400;
+            color: $Wenge-Brown;
+            strong {
+                font-weight: 600;
+            }
+        }
+
+        ol {
+            color: $Nutmeg;
+            font-weight: 600;
+        }
+
+    }
+
+
+    .nutrition {
+        display: block;
+        h2 {
+            color: $Nutmeg;
+        }
+
+        p{
+            color: $Wenge-Brown;
+        }
+
+        table {
+            width: 100%;
+            line-height: 30px;
+            border-collapse: collapse;
+
+            tr {
+                padding: 0;
+                border-bottom: 1px solid $Light-Grey;
+                color: $Wenge-Brown;
+                font-weight: 600;
+
+                .values {
+                    color: $Nutmeg;
+                }
+            }
+        }
+    }
+
+}
+
+.attribution {
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    color: $Dark-Charcoal;
+
+    a {
+        color: $Nutmeg;
+    }
+}
